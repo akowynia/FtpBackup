@@ -42,7 +42,7 @@ class Menu:
                 if decision == 3:
                     config.add_folders()
                 if decision == 4:
-                    # ftp.download_all_file("192.168.1.3",9999,"anonymous","","")
+                    
                     op = Operations()
                     op.create_backup()
             except ValueError:
